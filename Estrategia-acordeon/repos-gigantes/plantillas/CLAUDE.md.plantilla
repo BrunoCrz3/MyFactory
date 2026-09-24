@@ -1,0 +1,29 @@
+# CLAUDE.md (raíz)
+
+<!-- Plantilla. Objetivo: menos de 60 líneas. Solo lo que aplica en TODO el repositorio.
+     Lo específico de un área va en su propio CLAUDE.md; los procedimientos, en skills.
+     Revísalo cada 3–6 meses y tras cada modelo nuevo: borra lo que el modelo ya hace solo. -->
+
+## Orientación
+
+- Mapa del repositorio: `MAPA.md`. Léelo antes de buscar; no listes el árbol desde la raíz.
+- Cada área tiene su `CLAUDE.md`; se carga al trabajar en ella.
+- Para buscar o entender código, usa la skill `explorar-repo-gigante` y delega la exploración
+  amplia en el subagente `explorador`.
+
+## Comandos
+
+- Build de un paquete: `<COMANDO> ` desde el directorio del paquete, nunca desde la raíz.
+- Tests acotados: `<COMANDO_TEST> <ruta>`. No ejecutes la suite completa salvo que se pida.
+- Lint/format: `<COMANDO_LINT>`.
+
+## Reglas globales
+
+- No edites nada bajo `**/generated/**`: regenera con `<COMANDO_CODEGEN>`.
+- Mensajes de commit: `<paquete>: <imperativo>`.
+- <Otra regla no obvia que aplique en todo el repositorio>.
+
+## Compactación
+
+Al compactar, preserva: ficheros modificados, el último test fallido literal, las decisiones
+tomadas y la ruta del fichero de plan.

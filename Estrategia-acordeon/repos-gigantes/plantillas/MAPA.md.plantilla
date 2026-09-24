@@ -1,0 +1,26 @@
+# MAPA del repositorio
+
+<!-- Plantilla. Una línea por carpeta de primer nivel (y de segundo en las grandes).
+     Texto estático: no rompe la caché entre turnos. Regenéralo en CI para que no caduque.
+
+     Esqueleto con el número de ficheros versionados por carpeta:
+       git ls-files | cut -d/ -f1 | sort | uniq -c | sort -rn
+     Segundo nivel de una carpeta grande:
+       git ls-files services/ | cut -d/ -f1-2 | sort | uniq -c | sort -rn
+
+     Las descripciones las escribe un humano o un agente tras explorar; no inventes lo que no
+     has comprobado. -->
+
+| Carpeta | Qué contiene | Dueño | Punto de entrada |
+|---|---|---|---|
+| `services/billing/` | Facturación: emisión, impuestos, abonos | <equipo> | `src/main/.../BillingApplication.java` |
+| `services/orders/` | Pedidos y su máquina de estados | <equipo> | `cmd/orders/main.go` |
+| `libs/shared-types/` | Tipos compartidos entre servicios; cambiar aquí afecta a todos | <equipo> | `index.ts` |
+| `web/` | Frontend | <equipo> | `src/app/` |
+| `tools/` | Scripts de build y codegen | <equipo> | `README.md` |
+| `vendor/`, `third_party/` | Código de terceros. **No leer ni editar** | — | — |
+| `**/generated/` | Código generado. **No editar**: regenerar | — | — |
+
+## Flujos que cruzan carpetas
+
+- Alta de pedido: `web/` → `services/orders/` → `services/billing/` (evento `OrderPlaced`).

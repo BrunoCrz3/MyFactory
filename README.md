@@ -5,13 +5,15 @@ librería ni una plantilla: es un índice de referencia con enlaces y una descri
 cada recurso, para decidir qué usar y cuándo.
 
 Este repositorio **no contiene código, skills ni documentación de terceros**. Cada entrada es un
-enlace al proyecto original y una descripción escrita aquí.
+enlace al proyecto original y una descripción escrita aquí. Las plantillas del bloque Estrategia
+acordeón (settings, hook, subagente y skill) son propias.
 
-## Los tres bloques
+## Los cuatro bloques
 
 | Bloque | Qué reúne | Entradas |
 | --- | --- | --- |
 | [Skills y herramientas](skills-y-herramientas/README.md) | Repositorios de skills, herramientas de reducción de tokens y de comportamiento del agente | 3 |
+| [Estrategia acordeón](Estrategia-acordeon/README.md) | Investigaciones de optimización de tokens: el [roadmap general](Estrategia-acordeon/roadmap.md) y la de [repositorios gigantes](Estrategia-acordeon/repos-gigantes/README.md), con catálogo de skills y plugins, semáforo de privacidad y licencias, y plantillas listas para copiar | 2 estudios · ~45 fichas |
 | [Spec Driven Development](spec-driven-development/README.md) | Métodos de desarrollo dirigido por especificación, [open source](spec-driven-development/open-source.md) y [comerciales](spec-driven-development/comerciales.md), con [comparativa](spec-driven-development/comparativa.md) | 13 |
 | [Verificación formal](verificacion-formal/README.md) | Lenguajes de especificación y demostradores lógicos, ordenados por penetración de mercado, con una [guía de uso](verificacion-formal/cuando-usar-cada-uno.md) | 15 fichas · 19 lenguajes |
 
@@ -21,7 +23,7 @@ enlace al proyecto original y una descripción escrita aquí.
   son hechos. La penetración de mercado y las tendencias (↑↑, ↑, →, ↓) son **valoraciones
   propias a 2026-09-23**, no medidas. Lo que afirma un producto comercial sobre sí mismo va
   marcado como «según su web, 2026-09-23» y no está verificado de forma independiente.
-- **Enlaces comprobados el 2026-09-23.** De los 35 enlaces del catálogo, 34 resolvían con
+- **Enlaces comprobados el 2026-09-23** (los del bloque Estrategia acordeón, el 2026-09-24). De los 35 enlaces del catálogo, 34 resolvían con
   HTTP 200. El que falla y las redirecciones relevantes están anotados en su bloque.
 - **Recursos identificados por proyecto.** Cada entrada se nombra por su proyecto o producto,
   nunca por las personas detrás de él. Los identificadores de cuenta que aparecen en las URL de

@@ -1,0 +1,6 @@
+{
+  "claudeMdExcludes": [
+    "**/RUTA/DEL/PAQUETE/DE/OTRO/EQUIPO/**",
+    "**/legacy-*/**"
+  ]
+}
