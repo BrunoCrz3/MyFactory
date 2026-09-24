@@ -6,6 +6,12 @@ línea de comandos.
 
 ← [Volver al índice](../README.md)
 
+> **Actualización 2026-09-24 (RTK).** Dos estudios independientes con A/B pareado sobre la
+> factura contradicen la cifra de su repositorio. En Claude Code, RTK costó un +7,6 % con
+> esfuerzo bajo (p=0,004) y un ±0 % con esfuerzo alto, con la calidad sin cambios, mientras su
+> propio contador marcaba un 99,8 % «ahorrado». Detalle y fuentes en
+> [Estrategia acordeón · repositorios gigantes](../Estrategia-acordeon/repos-gigantes/catalogo.md#i).
+
 | Recurso | Tipo | Para qué sirve | Cuándo usarlo | Enlace |
 | --- | --- | --- | --- | --- |
 | Skills for Real Engineers | Colección de skills | Skills de ingeniería extraídas de un directorio `.agents` de uso real y publicadas como repositorio | Cuando quieres partir de skills ya rodadas en trabajo diario en vez de escribir las tuyas desde cero | [github.com/mattpocock/skills](https://github.com/mattpocock/skills) |
